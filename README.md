@@ -1,4 +1,6 @@
 # drone-sonar-plugin
+> Forked from aosapps/drone-sonar-plugin, and upgrade sonar-scanner-cli to 5.0.1 to support SonarQube server 10.x
+
 The plugin of Drone CI to integrate with SonarQube (previously called Sonar), which is an open source code quality management platform.
 
 Detail tutorials: [DOCS.md](DOCS.md).
