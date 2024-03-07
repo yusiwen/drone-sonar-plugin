@@ -20,14 +20,14 @@ docker run --rm \
   -e PLUGIN_SOURCES=. \
   -e SONAR_HOST=http://localhost:9000 \
   -e SONAR_TOKEN=60878847cea1a31d817f0deee3daa7868c431433 \
-  aosapps/drone-sonar-plugin
+  yusiwen/drone-sonar-plugin
 ```
 
 ### Pipeline example
 ```yaml
 steps
 - name: code-analysis
-  image: aosapps/drone-sonar-plugin
+  image: yusiwen/drone-sonar-plugin
   settings:
       sonar_host:
         from_secret: sonar_host
